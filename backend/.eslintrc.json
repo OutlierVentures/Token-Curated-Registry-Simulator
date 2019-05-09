@@ -1,0 +1,12 @@
+{
+  "extends": "airbnb-base",
+  "rules": {
+    "no-plusplus": "off",
+    "no-underscore-dangle": [2, { "allowAfterThis": true }],
+    "no-use-before-define": ["error", {"classes": false, "functions": false}],
+    "object-curly-newline": ["error", { "consistent": true, "minProperties": 5 }]
+  },
+  "env": {
+    "mocha": true
+  }
+}
