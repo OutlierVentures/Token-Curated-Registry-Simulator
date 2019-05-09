@@ -18,6 +18,7 @@ if [[ "$OSTYPE" == "linux-gnu" ]]; then
     apt-get install -y build-essential curl git
     curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
     sudo apt-get install -y nodejs
+    npm install -g npm@4
 elif [[ "$OSTYPE" == "darwin"* ]]; then
     xcode-select --version || xcode-select --install
     brew --version || yes | /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
