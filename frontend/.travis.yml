@@ -1,0 +1,18 @@
+language: node_js
+node_js:
+  - "8"
+
+before_deploy:
+  - npm run build
+  - cd build
+
+deploy:
+  provider: pages
+  repo: TCR-Simulator/tcr-simulator.github.io
+  target-branch: master
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  local-dir: build
+  keep-history: true
+  on:
+    branch: master
