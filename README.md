@@ -1,6 +1,6 @@
 # Token Curated Registry Simulator
 
-This is the work of Imperial College students as part of the Outlier Ventures Imperial Research Project.
+This is the work of Ece Kayan, Emma Claxton, Hailey Fong, Matthew Cheung, Noel Lee and Yoon Kim as part of the Outlier Ventures Imperial Research Project.
 
 This repo compiles the aforementioned individuals's work from [the original repos](https://github.com/TCR-Simulator) with a few minor tweaks.
 
