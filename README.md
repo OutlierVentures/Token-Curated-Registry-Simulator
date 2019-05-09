@@ -6,11 +6,15 @@ This repo compiles the aforementioned individuals's work from [the original repo
 
 ## Install
 
-Note: this will install Node 8.
+Requires: Linux or MacOS.
+
+Note: this will install Node 8 and (for Linux only) npm 4.
 
 ```
 ./install.sh
 ```
+
+If you have an `npm git` failure, set `git config --global url."https://github.com".insteadOf git://github.com`.
 
 ## Run
 
