@@ -24,7 +24,7 @@
     "web3": "^0.20.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "PORT=3001 react-scripts start",
     "build": "react-scripts build",
     "lint": "eslint .",
     "pretest": "eslint .",
