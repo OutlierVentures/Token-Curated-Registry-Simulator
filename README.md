@@ -20,7 +20,9 @@ If you have an `npm git` failure, set `git config --global url."https://github.c
 
 `npm start` in each of the backend and frontend folders.
 
-In order to use the dApp, you will need tokens to do so. You can do this by deploying `contracts/contracts/TestToken.sol` to whatever network you choose to use, and sending your metamask address the tokens. Deployment automation can be found in the `contracts folder`: `npm run compile` then `npm run deploy-proxies:[network]`.
+In order to use the dApp, you will need tokens to do so.
+- You can do this yourself by deploying `contracts/contracts/TestToken.sol` to whatever network you choose to use, and sending your metamask address the tokens. Deployment automation can be found in the `contracts folder`: `npm run compile` then `npm run deploy-proxies:[network]`.
+- You can send an email to [developers@outlierventures.io](mailto:developers@outlierventures.io) and we'll send you some tokens.
 
 More specific instructions can be found in the readmes in each folder.
 
